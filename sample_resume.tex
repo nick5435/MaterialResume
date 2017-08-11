@@ -1,0 +1,141 @@
+\documentclass[letterpaper]{MaterialResumeBlue}
+%\usepackage{hyperref}
+%\usepackage{fontawesome}
+%---------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION SETUP
+%---------------------------------------------------------------------------------------
+\usepackage{array}
+\profilepic{bob.jpg} % Profile picture
+
+\cvname{Bob Saget} % Your name
+\cvjobtitle{Dad} % Job title/career
+
+\cvdate{} % Date of birth
+\cvaddress{123 Main St. SW \newline Boston, MA~02134} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{800-555-2234} % Phone number
+\cvsite{} % Personal website
+\cvmail{bob@saget.org} % Email address
+\setlength{\tabcolsep}{12pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+
+%---------------------------------------------------------------------------------------
+%	 ABOUT ME
+%---------------------------------------------------------------------------------------
+
+\aboutme{I'm Bob Saget. What else do you need?}
+
+%---------------------------------------------------------------------------------------
+%	 SKILLS
+%---------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Not being in 90s Sitcoms/0.5},{Being a ''Cool`` Dad/3.0},{Knowing John Stamos/4.2},{Being a Dad/6.0}}
+
+\makeprofile % Print the sidebar
+
+\section{Education}
+
+\begin{mdlong} % Environment for a list with descriptions
+	\mditem{January 1901 - September 2019}{Ph.Dad}{School of Hard Knocks}{Majoring in Acting, Home Economics}
+	%\mditem{<dates>}{<title>}{<location>}{<description>}
+\end{mdlong}
+
+\section{Relevant Coursework}
+\begin{mdtab}
+	\tabrow{\bfseries Acting I \& II}{\bfseries Advanced Acting I \& II}\\
+	\tabrow{\bfseries Cooking \& Cleaning Theory}{\bfseries Parenting 101 \& 102}\\
+\end{mdtab}
+
+\section{Work Experience}
+
+\begin{mdlong} % Environment for a list with descriptions
+	\mditem{January 1900 - Present}{Self}{Bob Saget}{Being Myself}
+	\mditem{The 1980s - Present}{Danny Tanner}{Full House, Fuller House}{I pretended to be a dad. }
+
+	%\mditem{<dates>}{<title>}{<location>}{<description>}
+\end{mdlong}
+
+\section{Professional Organizations}
+
+\begin{mdshort} % Environment for a short list with no descriptions
+	\mditemshort{January 1965 - Present}{DADD (Dads against Distasteful Desserts)}{Founder and COO}
+	
+	
+	%\mditemshort{<dates>}{<title/description>}
+\end{mdshort}
+
+\section{Projects and Publications}
+
+\begin{mdshort} % Environment for a short list with no descriptions
+	\mditemshort{April 2016}{Fuller House}{I played Danny Tanner again.\\ \href{http://netflix.com}{Watch it on Netflix}}
+
+	
+
+	%\mditemshort{<dates>}{<title/description>}
+\end{mdshort}
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+
+\section{Selected Presentations}
+
+\begin{mdshort} % Environment for a short list with no descriptions
+	\mditemshort{I forgot}{Probably some standup}{Probably not Roscoe's, Chicago, IL}
+
+
+
+\end{mdshort}
+
+
+\section{References}
+\begin{mdtab}
+	\tabrow{%
+		% Referee 1
+		\begin{minipage}[h]{2.5in}%
+			\textbf{Mr.\ Joey Gladstone}\\%
+			\textit{Comedian}\\%
+			\textit{Self-Employed}\\%
+			San Francisco, CA\\%
+			\faPhone\ 700-555-2233\\%
+			\faEnvelopeO \ \href{mailto:joey@gladstone.cc}{joey\textrm{@}gladstone.cc}%
+		\end{minipage}}{%
+		\begin{minipage}[h]{2.5in}%
+			\textbf{Ms.\ Jane Doe}\\%
+			\textit{Test Subject}\\%
+			\textit{Sample University}\\%
+			Your Town, TX\\%
+			\faPhone\ 212-555-3245\\%
+			\faEnvelopeO \ \href{mailto:jane@sample.edu}{jane\textrm{@}sample.edu}%
+		\end{minipage}}
+		\\\\
+		\tabrow{%
+		\begin{minipage}[h]{2.5in}%
+			\textbf{Sir Patrick Stewart}\\%
+			\textit{Capitan of the USS Enterprise}\\%
+			\textit{Starfleet}\\%
+			No Permanant Location\\%
+			\faPhone\ 22-1014-21398\\%
+			\faEnvelopeO \ \href{mailto:captain@enterprise.starfleet.mil}{captain\textrm{@}enterprise.starfleet.mil}%
+		\end{minipage}}{%
+		\begin{minipage}[h]{2.5in}%
+			\textbf{Dr. Montgomery Scott}\\%
+			\textit{Professor of Physics}\\%
+			\textit{Frankenstein College}\\%
+			Salem, MA\\%
+			\faPhone\ 555-867-5309\\%
+			\faEnvelopeO \ \href{mailto:greatscott@frankenstein.edu}{greatscott\textrm{@}frankenstein.edu}%
+		\end{minipage}}
+\end{mdtab}
+
+
+
+
+\end{document}
